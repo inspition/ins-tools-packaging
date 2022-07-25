@@ -1,6 +1,6 @@
 {
   "name": "ins-tools-packaging",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "常用工具封装",
   "main": "dist/dip-utils.cjs.js",
   "scripts": {
