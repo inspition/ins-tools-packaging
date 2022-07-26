@@ -2,7 +2,7 @@
   "name": "ins-tools-packaging",
   "version": "1.0.4",
   "description": "常用工具封装",
-  "main": "dist/dip-utils.cjs.js",
+  "main": "dist/ins-utils.cjs.js",
   "scripts": {
     "test": "jest",
     "test-d": "echo \"Error: no test specified\" && exit 1",
@@ -33,8 +33,8 @@
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
-  "module": "dist/dip-utils.esm.js",
-  "browser": "dist/dip-utils.umd.js",
+  "module": "dist/ins-utils.esm.js",
+  "browser": "dist/ins-utils.umd.js",
   "types": "src/index.d.ts",
   "files": [
     "src",
