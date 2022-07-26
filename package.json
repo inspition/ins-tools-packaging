@@ -39,5 +39,8 @@
   "files": [
     "src",
     "dist/*.js"
-  ]
+  ],
+  "dependencies": {
+    "webrtc": "^1.14.1"
+  }
 }
