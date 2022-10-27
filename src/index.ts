@@ -202,3 +202,31 @@ export const apiTools = { apiReq, $thenBack, $catchBack, $downloadFile };
 //     setTimeout(() => thenBack(res), 300) // 避免遮罩层关闭时与下一个弹窗开启冲突
 //   }).catch(() => null)
 // }
+
+/**
+ * $confirmReq 用例
+ *
+ * @param   {[type]}  id           [id description]
+ * @param   {[type]}  versionName  [versionName description]
+ * @param   {[type]}  versionNo    [versionNo description]
+ *
+ * @return  {[type]}               [return description]
+ */
+// async function publishVersion({ id, versionName, versionNo } = {}) {
+//   const { $confirmReq, init, apiReq, $message } = this;
+
+//   await $confirmReq(`是否将系统版本更新至【${versionNo}】【${versionName}】版本，是否继续？`);
+
+//   const loading = this.$loading({
+//     lock: true,
+//     text: '版本更新中，请稍后...',
+//     spinner: 'el-icon-loading',
+//     background: 'rgba(0, 0, 0, 0.7)'
+//   });
+
+//   const { success, msg } = await apiReq(build)(id);
+//   loading.close();
+//   success && $message.success(msg);
+
+//   init();
+// }
