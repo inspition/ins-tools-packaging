@@ -200,7 +200,7 @@ export const apiTools = { apiReq, $thenBack, $catchBack, $downloadFile };
 //     cancelButtonText: '取消',
 //   }).then(res => {
 //     setTimeout(() => thenBack(res), 300) // 避免遮罩层关闭时与下一个弹窗开启冲突
-//   }).catch(() => null)
+//   })
 // }
 
 /**
