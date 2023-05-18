@@ -115,6 +115,8 @@ export function $catchBack(errPrefix = 'request exception - ') {
  * @return  {[Promise]}       [回调处理后的新接口]
  */
 export function apiReq(api: AxiosInstance) {
+// export function apiReq<T>(api: AxiosInstance): () => Promise<T> {
+
   // @ts-ignore
   const { $thenBack, $catchBack } = this;
 
