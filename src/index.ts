@@ -53,7 +53,7 @@ export function chainAccess(result: AnyObject, path: string) {
  * @return  {[Function]}     [return 防抖加工后的新方法]
  */
 export function joinDebounce() {
-  let timer: NodeJS.Timeout | string = '';
+  let timer: number;
 
   return (func: () => AnyObject, ms = 500) => {
     clearTimeout(timer);
